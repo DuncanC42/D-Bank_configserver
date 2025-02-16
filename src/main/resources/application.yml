@@ -2,11 +2,16 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"
+        git:
+          uri: "https://github.com/DuncanC42/D-Bank_configserver.git"
+          search-paths: "src/main/resources/config" #ne mettre qui si les fichiers ne sont pas à la racine du repo
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
 server:
   port: 8071
