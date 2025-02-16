@@ -1,0 +1,12 @@
+build:
+  version: "1.0.0"
+
+accounts:
+  message: "Welcome to Duncan Cadoret Bank accounts related to Production APIs [Production side]"
+  contactDetails:
+    name: "Samuel Production"
+    role: "Product Owner"
+    website: "https://facebook.com/"
+  onCallSupport:
+    - (33) 6 12 34 56 80
+    - (33) 6 12 34 56 81

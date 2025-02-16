@@ -1,0 +1,12 @@
+build:
+  version: "3.0.0"
+
+cards:
+  message: "Welcome to Duncan Cadoret Bank CARDS related APIs [dev side]"
+  contactDetails:
+    name: "Duncan Cadoret"
+    role: "Software Engineer One day"
+    website: "https://duncan-cadoret.com/"
+  onCallSupport:
+    - (33) 6 12 34 56 78
+    - (33) 6 12 34 56 79
