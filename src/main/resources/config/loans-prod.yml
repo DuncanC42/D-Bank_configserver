@@ -2,7 +2,7 @@ build:
   version: "1.0.0"
 
 loans:
-  message: "Welcome to Duncan Cadoret Bank LOANS related to Production APIs [Production side]"
+  message: "Welcome to Duncan Cadoret Bank LOANS related to Production APIs [Production side V2 RabbitMQ]"
   contactDetails:
     name: "Samuel Production"
     role: "Product Owner"
