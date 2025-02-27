@@ -2,9 +2,12 @@ spring:
   application:
     name: "configserver"
   profiles:
+#    active: native
     active: git
   cloud:
     config:
+#      native:
+#        search-locations: "classpath:/config"
       server:
         git:
           uri: "https://github.com/DuncanC42/D-Bank_configserver.git"
